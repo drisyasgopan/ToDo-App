@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../css/bg.jpg);
+    background-size: cover;
+}
+
+#create-account-form{
+    width: 400px;
+    padding: 20px;
+    text-transform: uppercase;
+    background-color:white;
+}
+
+.title{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-group{
+    margin: 20px 0;
+    position: relative;
+}
+
+.input-group input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+.error input{
+    border: 3px red solid;
+}
+
+.success input{
+    border: 3px green solid;
+}
+
+.input-group i{
+    position: absolute;
+    right: 10px;
+    top: 14px;
+    visibility: hidden;
+} 
+
+.success i.fa-circle-check{
+    visibility: visible;
+    color: green;
+}
+
+.error i.fa-circle-exclamation{
+    visibility: visible;
+    color: red;
+}
+
+.input-group p{
+    font-size: 15px;
+    color: red;
+    visibility: hidden;
+}
+
+.error p{
+    visibility: visible;
+}
+
+.btn{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+}
+
+
+
+
+
+
+/* .box{
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(29, 28, 28, 0.884);
+    text-align: center;
+
+}
+
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.box input[type="text"], .box input[type="password"]{
+    border: 0;
+    background: none;
+    font-display: block;
+    margin: 25px auto;
+    text-align: center;
+    border: 3px solid rgba(10, 25, 240, 0.849);
+    padding: 14px 10px;
+    width: 320px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+}
+
+.box input[type="text"]:focus, .box input[type="password"]:focus{
+    width: 270px;
+    border-color: rgb(230, 186, 41);
+
+}
+
+.box input[type="submit"]{
+    border: 0;
+    background: none;
+    font-display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid rgb(250, 195, 13);
+    padding: 14px 35px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+
+.box input[type="submit"]:hover{
+    background:rgb(207, 160, 4) ;
+} */

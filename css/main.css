@@ -1,0 +1,30 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background: url(./bg1.jpg);
+    background-size: cover;
+}
+
+.table{
+    
+    margin: 15px auto;
+    border: 3px;
+    padding: 14px 15px;
+    width: 1000px;
+    height: 750px;
+    border-radius: 240px;
+}
+
+#table_body{
+    background-color:lightblue;
+    
+}
+
+/* .table .rows{
+    width:20px;
+    height: 50px;
+    padding: 14px auto;
+    size: 200px;
+
+
+} */
